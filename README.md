@@ -7,13 +7,20 @@ SlashCast ist ein Makro-Editor für World of Warcraft: Makros schreiben, prüfen
 | Gerät | So bekommst du es |
 |---|---|
 | **iPhone, iPad, Mac** | Über TestFlight: **https://testflight.apple.com/join/awkTkc47** (erst die App „TestFlight“ aus dem App Store laden, dann den Link öffnen) |
-| **Windows** | [SlashCast-Windows.zip](https://github.com/paixsn/slashcast-releases/releases/latest/download/SlashCast-Windows.zip) |
+| **Windows** | [SlashCast-Windows-Setup.exe](https://github.com/paixsn/slashcast-releases/releases/latest/download/SlashCast-Windows-Setup.exe) – Installer mit allem drin (empfohlen, neu)<br>Falls der Installer nicht klappt: [SlashCast-Windows.zip](https://github.com/paixsn/slashcast-releases/releases/latest/download/SlashCast-Windows.zip) (braucht Java) |
 | **Linux** (Arch/CachyOS, Ubuntu, Fedora …) | [SlashCast-Linux.tar.gz](https://github.com/paixsn/slashcast-releases/releases/latest/download/SlashCast-Linux.tar.gz) |
 | **WoW-Addon** (optional) | [SlashCast-Addon.zip](https://github.com/paixsn/slashcast-releases/releases/latest/download/SlashCast-Addon.zip) |
 
 ## Installieren
 
-**Windows**
+**Windows – Installer (empfohlen)**
+1. `SlashCast-Windows-Setup.exe` starten. Java ist schon dabei.
+2. Windows warnt evtl. „Der Computer wurde durch Windows geschützt“ (die App ist noch nicht signiert): **Weitere Informationen → Trotzdem ausführen**.
+3. Danach findest du SlashCast im Startmenü.
+
+Der Installer ist neu – falls er bei dir nicht klappt, nimm die ZIP-Variante und sag kurz Bescheid.
+
+**Windows – ZIP (Ausweichweg)**
 1. ZIP entpacken, den Ordner `SlashCast` an einen festen Platz legen (z. B. Dokumente).
 2. Einmal Java installieren – Terminal öffnen und eingeben: `winget install EclipseAdoptium.Temurin.21.JRE`
 3. `SlashCast.bat` doppelklicken. Tipp: Verknüpfung auf den Desktop legen.
