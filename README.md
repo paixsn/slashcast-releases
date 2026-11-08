@@ -41,9 +41,9 @@ Das Skript installiert Java, falls es fehlt, und legt SlashCast ins App-Menü. E
 - **Synchronisierung** – hält deine Makros auf allen Geräten gleich, ohne Konto und ohne Server: Am PC unter *Einstellungen → Synchronisierung* „Handy und andere Geräte … abgleichen“ einschalten, am Handy den QR-Code scannen. Abgeglichen wird, solange beide Apps im selben WLAN offen sind. (Linux mit Firewall: die App zeigt den einen Befehl, der nötig ist.)
 - **Spielordner** (PC/Mac) – liest deine Makros direkt aus WoW und schreibt sie zurück.
 - **Addon** (optional) – bringt Makros zuverlässig ins Spiel und sagt der App, welche Zauber deine Charaktere kennen. Am einfachsten über die App installieren: *Spielordner → Addon installieren*. Von Hand: `SlashCast-Addon.zip` in den `Interface/AddOns`-Ordner der Spielversion entpacken (z. B. `World of Warcraft/_retail_/Interface/AddOns/` oder `_forever_/…`).
-  - **App → Spiel:** Makros in der App über das Addon ins Spiel schreiben, dann einloggen – das Addon sagt im Chat, was es übernommen hat.
+  - **App → Spiel:** Makros in der App über das Addon ins Spiel schreiben, dann einloggen. Das SlashCast-Fenster zeigt jedes Makro als *neu*, *geändert* oder *aktuell* – einzeln oder alle übernehmen.
   - **Spiel → App:** Das Spiel speichert erst beim Ausloggen oder bei `/reload`. Schneller: `/slashcast send` (lädt die Oberfläche kurz neu), dann in der App *Spielordner → importieren*.
-  - `/slashcast` zeigt jederzeit, was wartet und was zuletzt passiert ist.
+  - `/slashcast` öffnet das Fenster, `/slashcast status` zeigt im Chat, wie das Addon deinen Charakter sieht und was wartet.
 - **Pro** – Übersetzen zwischen Spielsprachen, Spielordner, Sicherungen, unbegrenzt Charaktere. Auf Windows/Linux per Lizenzschlüssel (*Menü ⋯ → SlashCast Pro → Schlüssel einfügen → Aktivieren*), auf iPhone/Mac in TestFlight kostenlos „kaufen“ (Testkauf, es wird nichts abgebucht).
 
 ## Probleme?
