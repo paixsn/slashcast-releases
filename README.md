@@ -44,6 +44,7 @@ Das Skript installiert Java, falls es fehlt, und legt SlashCast ins App-Menü. E
   - **App → Spiel:** Makros in der App über das Addon ins Spiel schreiben, dann einloggen. Das SlashCast-Fenster zeigt jedes Makro als *neu*, *geändert* oder *aktuell* – einzeln oder alle übernehmen.
   - **Spiel → App:** Das Spiel speichert erst beim Ausloggen oder bei `/reload`. Schneller: `/slashcast send` (lädt die Oberfläche kurz neu), dann in der App *Spielordner → importieren*.
   - `/slashcast` öffnet das Fenster, `/slashcast status` zeigt im Chat, wie das Addon deinen Charakter sieht und was wartet.
+  - **Makro-Baukasten im Spiel** (Beta): `/slashcast build` oder *Makro bauen …* im Fenster – Zauber aus deinem Zauberbuch wählen, Ziele und Reihenfolge festlegen, speichern. Funktioniert auch ganz ohne App.
 - **Pro** – Übersetzen zwischen Spielsprachen, Spielordner, Sicherungen, unbegrenzt Charaktere. Auf Windows/Linux per Lizenzschlüssel (*Menü ⋯ → SlashCast Pro → Schlüssel einfügen → Aktivieren*), auf iPhone/Mac in TestFlight kostenlos „kaufen“ (Testkauf, es wird nichts abgebucht).
 
 ## Probleme?
